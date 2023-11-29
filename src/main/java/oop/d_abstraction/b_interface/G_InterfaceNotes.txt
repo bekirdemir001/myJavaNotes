@@ -1,0 +1,29 @@
+* Abstraction that is fourth basic principle of OOP has two parts. These are;
+    1. Abstract Class:
+       We can put both abstract methods and concrete methods into Abstract Classes. That's why, Abstract Classes are called
+       "Semi-Abstract".
+    2. Interface
+       We cannot put concrete methods into Interface, and all methods must be abstract. That's why, Interface are called
+       "Fully-Abstract".
+
+* We can talk about Interface here.
+
+* Interface
+    1. Java prevent "multiple parent" when parents are a Class. But we sometimes need a "multiple parent". To meet this need,
+       Java created a new structure called Interface. Thanks to this structure, we can create "Multiple Interface Parents" for
+       a Class.
+    2. We cannot put concrete methods into Interface. Because concrete methods have method body and method body indicates
+       how to do works of method. How to do works has a lot of details and these details in method body confuse Child Classes.
+       If we just tell to Child Classes works that must be done and leave the decisions how to do works to Child Classes,
+       we can prevent Child Classes confusion.
+    3. All methods in Interface are "public", "abstract", but "non-static". That's why, it is possible that we couldn't type
+       "public" and "abstract" keywords. Java prevent us to type "abstract" and "static" keywords together.
+    4. We cannot put concrete methods into Interface. Therefore, we cannot choose methods for Child Classes in Interface.
+       All methods in Interface are mandatory for Child Classes. That's why, Interface is called "to-do list".
+    5. Variables in Interface are automatically "public", "static" and "final".
+    6. Interface are not Class, Interface is Interface.
+    7. Interface hasn't got Constructors.
+    8. We can use "implements" keyword to do an Interface a parent of a Class.
+    9. We can put the same methods into each of "Multiple Interface Parents". When a Child Class override any of the same
+       methods in different Interfaces, a Child Class override all of them, and then we type codes into overriding method's
+       body. We implement methods thanks to typing codes into overriding method's body.

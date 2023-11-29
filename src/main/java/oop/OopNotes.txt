@@ -1,0 +1,9 @@
+* OOP has 4 basic principles. These are;
+    1. Inheritance
+    2. Polymorphism
+        a. Method Overloading
+        b. Method Overriding
+    3. Encapsulation
+    4. Abstraction
+        a. Abstract Class
+        b. Interface

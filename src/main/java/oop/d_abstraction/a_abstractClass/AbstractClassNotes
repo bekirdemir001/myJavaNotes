@@ -1,0 +1,11 @@
+* Abstraction that is fourth basic principle of OOP has two parts. These are;
+    1. Abstract Class:
+       We can put both abstract methods and concrete methods into Abstract Classes. That's why, Abstract Classes are called
+       "Semi-Abstract".
+    2. Interface
+       We cannot put concrete methods into Interface, and all methods must be abstract. That's why, Interface are called
+       "Fully-Abstract".
+
+* We can talk about Abstract Class here.
+
+* Abstract Class
