@@ -1,0 +1,41 @@
+
+                COLLECTIONS
+* Java created Collections to store multiple elements.
+* Collections use always Non-Primitive data types.
+* We have 6 options to store multiple elements. These are;
+    a. List(interface)
+        1. ArrayList (concrete class)
+        2. LinkedList (concrete class)
+    b. Queue(interface)
+        3. PriorityQueue (concrete class)
+    c. Set(interface)
+        4. HashSet (concrete class)
+        5. LinkedHashSet (concrete class)
+        6. TreeSet (concrete class)
+
+* We cannot create an object from Interfaces. Because an interface doesn't have a constructor.
+  Also, we cannot create an object from Abstract Classes. They have constructor, but it doesn't create an object.
+  For these two reason, we cannot use Abstract Classes and Interfaces after "new" keyword when creating an object.
+  For instance;
+    We can type followings;
+        ArrayList<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+    But we cannot type the following. Because List is an interface and doesn't have a constructor.
+        ArrayList<String> list3 = new List<>();    --> This is impossible.
+
+* When we determine the data type of new object, we can select Class name or parent's name of that Class.
+  For instance; ArrayList is a child of List Interface. Collection Interface is also the parent of List.
+        ArrayList<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+        Collection<String> list3 = new ArrayList<>();
+
+* We must type followings keywords, when we create a parent-child relationship;
+  Child     --> Parent
+  class     --> class ==> extends
+  class     --> interface ==> implements
+  interface --> interface ==> extends
+  interface --> class ==> This is impossible.
+
+
+
+

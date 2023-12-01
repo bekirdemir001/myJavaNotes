@@ -1,0 +1,34 @@
+
+* Differences between ArrayList and LinkedList;
+    1. ArrayList is unsuccessful in deleting and adding elements. That's why, if we do adding and deleting elements many
+    times, we mustn't use ArrayList.
+       LinkedList doesn't use index for sorting elements. That is, there is no need to re-index elements. For this reason,
+    LinkedList is successful in deleting and adding elements. That's why, if we do adding and deleting elements many
+    times, we must use LinkedList.
+    2. ArrayList is successful in searching elements. Because ArrayList uses index for each element. An index is the address
+    of an element. For this reason, we can find a specific element easily.
+       LinkedList is unsuccessful in searching elements. Because LinkedList doesn't use index for each element. LinkedList
+    uses Nodes. When we search an element in LinkedList, Java controls all elements from head to that element and it means
+    there is much work. For this reason, we cannot find a specific element easily.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5)ArrayList ler eleman silme ve eleman eklemede başarısızdırlar. Bu yüzden eleman silme ve eleman ekleme işlemleri
+    çoklukla yapılacaksa ArrayList kullanmak tavsiye edilmez.
+    6)LinkedList ler index kullanmadıklarından eleman silme ve eleman eklemede re-index yapılmasına gerek yoktur. Bu da
+    LinkedList leri eleman silme ve eleman eklemede çok başarılı hale getirir. Bu yüzden eleman silme ve eleman ekleme
+    işlemlerinin çok yapılması gereken durumlarda LinkedList kullanmak tavsiye edilir.
+    7)ArrayList lerde search işlemi kolay yapılır çünkü index ler adres gibidir.
+    8)LinkedList lerde search işlemi zor yapılır çünkü LinkedList ler index kullanmaz, index kullanmayınca herhangi
+    bir elemanı bulmak için en baştan tüm elemanlar kontrol edilir ve bu da çok fazla iş demektir.
