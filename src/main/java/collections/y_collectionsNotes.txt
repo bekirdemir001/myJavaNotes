@@ -1,5 +1,5 @@
 
-                COLLECTIONS
+            COLLECTIONS
 * Java created Collections to store multiple elements.
 * Collections use always Non-Primitive data types.
 * We have 6 options to store multiple elements. These are;
@@ -35,7 +35,3 @@
   class     --> interface ==> implements
   interface --> interface ==> extends
   interface --> class ==> This is impossible.
-
-
-
-

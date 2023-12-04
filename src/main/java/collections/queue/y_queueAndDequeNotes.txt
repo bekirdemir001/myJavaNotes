@@ -1,0 +1,19 @@
+
+            Queue and Deque
+* Sometimes we can need specific situations such as First In First Out(FIFO) or Last In First Out(LIFO). We can use Queue
+or Deque in these situations. That is, if ordering is important for us, we can use Queue or Deque.
+
+* We use Queue in FIFO situations. For this reason, Queue has a lot of methods about the first element.
+  On the other hand, we use Deque in both FIFO and LIFO situations. For this reason, Deque has a lot of methods about both
+first and last element.
+
+* Queue and Deque are Interfaces. So they haven't got constructor. That's why, we cannot use Queue and Deque after "new" keyword
+when creating an object. We can use following classes after "new" keyword;
+    For Queue;
+        LinkedList      --> Queue<String> queue1 = new LinkedList<>();
+        PriorityQueue   --> Queue<String> queue2 = new PriorityQueue<>();
+    For Deque:
+        LinkedList      --> Deque<Integer> deque = new LinkedList<>();
+
+* If we use PriorityQueue as a constructor while creating a Queue, we have the right to sort the elements according to the
+rule we determine.

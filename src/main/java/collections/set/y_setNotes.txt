@@ -1,0 +1,32 @@
+
+            Sets
+* Set is a Collection used to store multiple data. Set doesn't allow repetitive elements. That is, Set uses just non-repetitive
+elements. When we hear Set in Java, we should think non-repetitive elements.
+
+* Sets divide into 3 parts. These are;
+    1. HashSet:
+        a. Super-fast; HashSet doesn't use sorting technique. That is, elements added into HashSet are sorted randomly.
+        b. HashSet doesn't allow repetitive elements.
+        c. HashSet accepts just one "null" as an element.
+    2. LinkedHashSet
+        a. Fast; LinkedHashSet uses sorting technique called insertion order. That is, elements added into LinkedHashSet
+           are sorted by insertion order(by given order). For this reason, LinkedHashSet is slower than HashSet because
+           of using sorting technique(insertion order).
+        b. LinkedHashSet doesn't allow repetitive elements.
+        c. LinkedHashSet accepts just one "null" as an element.
+    3. TreeSet
+        a. Slow; TreeSet uses sorting technique called naturel order. That is, elements added into TreeSet are sorted by
+           naturel order(smallest to largest or alphabetical order). For this reason, TreeSet is the slowest Set because
+           of using naturel order.
+        b. TreeSet doesn't allow repetitive elements.
+        c. TreeSet doesn't accept "null" as an element.
+
+    Note: TreeSet is too slow adding element, but HashSet too fast. So we can use HashSet to add elements and then convert
+    HashSet to TreeSet. Thus, we can avoid this negative aspect of TreeSet.
+
+* "Hash" is a technique to create unique data. Java uses also this technique. In this technique, Java gives hash code for
+each date. Data can be repetitive, but hash code cannot.
+
+* Methods are divided into 2 parts in Java. These are;
+    1. Normal Methods: Normal Methods are run with data types defined in parameters.
+    2. Generic Methods: Generic Methods are run with all data types. Generic Methods return given data type.

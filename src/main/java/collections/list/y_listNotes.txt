@@ -1,0 +1,42 @@
+
+            Lists
+* List is an interface and has two parts. First part is ArrayList, second part is LinkedList.
+
+* ArrayLists;
+    1. They use "elements" for each value in the list.
+    2. Each element has an index. This index is used like an address. So it is easy to search elements.
+    3. When adding or deleting any element, ArrayList gives new index to each element. So it is NOT easy to add or delete
+    elements.
+  LinkedLists;
+    1. They use "nodes" for each value in the list.
+    2. When searching any nodes, LinkedList starts to find that node from head to that node. This last much time, if node
+    we searched is close to the last node. So it is NOT easy to search elements.
+    3. Each node has a value and pointer. Each pointer indicates the following node. So it is easy to add or delete elements.
+
+Note: Node Structure:
+    1. Nodes are consisted of value and pointer.
+    2. Each pointer indicates the following node.
+    3. First pointer called "Head" doesn't have value, just pointer. This pointer indicates first node.
+    4. Last pointer called "Tail" indicates null.
+
+* Differences between ArrayList and LinkedList;
+    1. ArrayList is unsuccessful in deleting and adding elements. That's why, if we do adding and deleting elements many
+    times, we mustn't use ArrayList.
+       LinkedList doesn't use index for deleting and adding elements. That is, there is no need to re-index elements. For
+    this reason, LinkedList is successful in deleting and adding elements. That's why, if we do adding and deleting elements
+    many times, we must use LinkedList.
+    2. ArrayList is successful in searching elements. Because ArrayList uses index for each element. An index is like the
+    address of an element. For this reason, we can find a specific element easily.
+       LinkedList is unsuccessful in searching elements. Because LinkedList doesn't use index for each element. LinkedList
+    uses Nodes. When we search an element in LinkedList, Java controls all elements from head to that element and it means
+    there is much work. For this reason, we cannot find a specific element easily.
+
+* We can create ArrayList and LinkedList in the following;
+    For ArrayList;
+        ArrayList<String> list1 = new ArrayList<>();
+        List<String> list2 = new ArrayList<>();
+        Collection<String> list3 = new ArrayList<>();
+    For LinkedList;
+        LinkedList<String> names1 = new LinkedList<>();
+        List<String> names2 = new LinkedList<>();
+        Collection<String> names3 = new LinkedList<>();
