@@ -1,0 +1,23 @@
+
+            Iterators
+* Iterators are new structure created Java to eliminate infinitive loop problem.
+
+* Iterators do the same job as Loops. That is, iterators do all things loops do.
+
+* Iterators process elements one by one, just like loops.
+
+* There is no infinitive loop problem in Iterators, because Iterators don't use "starting or ending point" and "decrement
+or increment".
+
+* There is no performance difference between Loops and Iterators. But Iterators are more successful than Loops to remove
+or update elements
+
+* Iterators have two parts;
+    1. Iterator;
+        a. We can just remove the element.
+        b. Iterator runs from left to right. That is, Iterator is one way.
+    2. ListIterator:
+        a. We can remove, update and add the element.
+        b. ListIterator runs both from left to right and from right to left. That is, ListIterator is both way.
+
+* If we remove or update any element in a Collection, it is recommended to be used Iterator.

@@ -1,0 +1,13 @@
+
+            METHOD CREATION
+* Stages of creating methods;
+    1. They are created out of Main Method.
+    2. Syntax: Access Modifier + Return Type + Method Name + () + {}
+       Access Modifier --> Restrict the access of a method
+       Return Type     --> The type of the data which method produces
+       Method Name     --> Starts with lowercase, the other words start with uppercase
+       ()              --> Method parenthesis; we type parameters we use in the method in it.
+       {}              --> Method Body; we type our codes in it.
+    3. They are called in the Main Method.
+    4. We type method name and "()" in the Main Method.
+    5. We type argument or arguments into "()".

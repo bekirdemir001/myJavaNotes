@@ -1,0 +1,8 @@
+
+            ENUMS
+* Enums are data store.
+
+* We use Enums for putting stable and never changing data into application. For example; months of a year, days of a week,
+states of the USA etc.
+
+* We also use Enums to provide being application "standalone"(for the application to stand on its own).

@@ -1,0 +1,69 @@
+
+            DATA TYPES
+* A data type is a classification of data.
+
+* Data types refer to the type of value that a variable has.
+
+* There are two data types in Java.
+    1. Primitive Data Types
+    2. Non-Primitive Data Types
+
+* Features of Primitive Data Types;
+    1. They are created by Java and we cannot create. There are 8 Primitive Data Types in Java.
+    2. Their names start with lower case.
+    3. They occupy different areas in the memory depending on the data type.
+    4. They have just values.
+
+* Primitive Data Types;
+    1. char;
+        * It is used only single character. For example; A, X, ?, 5
+        * Values are put into single quotes.
+    2. boolean;
+        * It takes just two values, true and false. For example; isRetired
+        * Boolean values are mostly used for conditional situations.
+    3. byte;
+        * It is used for integer from -128 to +127. For example; studentAge
+        * It occupies 1 byte of memory.
+    4. short;
+        * It is used for integer from -32768 to +32767. For example; populationOfApartment
+        * It occupies 2 byte of memory.
+    5. int;
+        * It is used for integer from -2,147,483,648 to +2,147,483,647. For example; populationOfCountry
+        * It occupies 4 byte of memory.
+    6. long;
+        * It is used for integer from -9,223,372,036,854,775,808 to +9,223,372,036,854,775,807. For example;
+        cellNumberInHumanBody
+        * It occupies 8 byte of memory.
+        * If a value is in long data type, we should add "L" or "l" at the end of that value.
+        * If a value is between int boundaries, there is no need to add "L" or "l". Java accepts that value as int to protect
+        memory.
+    7. float;
+        * It is used for decimal numbers. For example; the price of products
+        * It occupies 4 byte of memory.
+        * Java accepts decimal numbers as double automatically. If we create float variable, we should type "F" or "f" at the
+        end of the value.
+    8. double;
+        * It is used for decimal numbers. For example; the weight of a cell
+        * It occupies 8 byte of memory.
+
+* Features of Non-Primitive Data Types;
+    1. They are created by both Java and developers. So, there are infinite Non-Primitive Data Types in Java.
+    2. Their names start with upper case.
+    3. They occupy the same areas in the memory without depending on the data type.
+    4. They have values and methods.
+
+*Non-Primitive Data Types;
+    1. String
+    2. Array
+    3. List
+    4. Class etc.
+
+* Differences between Primitive Data Types and Non-Primitive Data Types:
+    1. Primitive has just value.
+       Non-Primitive has value and methods.
+    2. Primitive starts with lower case.
+       Non-Primitive starts with upper case.
+    3. Primitive Data Types are created by Java. There are 8 Primitive Data Types.
+       Non-Primitive Data Types are created by both Java and developers. There are infinite Non-Primitive Data Types.
+    4. Primitive Data Types occupy different areas in the memory depending on the data type.
+       Non-Primitive Data Types occupy the same areas in the memory without depending on the data type.

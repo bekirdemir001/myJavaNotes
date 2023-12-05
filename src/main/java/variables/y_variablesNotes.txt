@@ -1,0 +1,34 @@
+
+            VARIABLES
+* Variable is the name of reserved area allocated in the memory.
+
+* A variable is a container which holds the value while the java program is executed.
+
+* Variable Declaration
+    For single variables;
+        Data Type   VariableName    Statement End
+           int          age             ;
+           char        initial          ;
+    For multiple variables with the same data type;
+        Data Type     VariableName          Statement End
+           int      age, weight, length          ;
+
+* Variable Assignment
+        Data Type   VariableName    Statement End       -->      Variable Declaration
+           int          age             ;
+
+        VariableName    Assignment Operator   Value    Statement End        -->     Variable Assignment
+           age                =               13          ;
+
+* Variable Creation
+    Data Type   VariableName    Assignment Operator   Value    Statement End
+      int           age                =               13          ;
+
+* Variable Declaration and Variable Assignment can be done in different ways like;
+    1. int age;
+       age = 33;
+    2. int age, weight, height;
+       age = 33;
+       weight = 78
+       height = 173;
+    3. int age = 33, weight = 78, height = 173;

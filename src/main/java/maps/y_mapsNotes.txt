@@ -1,0 +1,30 @@
+
+            Maps
+* Map is a data structure to store data like key and value.
+
+* Map's features;
+    1. Keys must be unique, but value can be repeatedly.
+    2. Each data stored in Maps is called "entry", not element.
+    3. Entries are unique because of keys in Maps.
+
+* Maps have 3 parts;
+    1. HashMaps;
+        a. Super-fast; HashMaps don't spend time to sort entry.
+        b. Just one null is used for keys, but more than one null is used for values.
+        c. HashMaps aren't "tread-safe" and "synchronized".
+    2. HashTables;
+        a. Fast; HashTable don't spend time to sort entry, but slower than HashMaps.
+        b. HashTables don't allow to use null for both key and value.
+        c. HashTables are "tread-safe" and "synchronized".
+    3. TreeMaps;
+        a. Slow; TreeMaps spend a lot of time to sort entry by naturel order.
+        b. TreeMaps don't allow null for keys, but allow more than one null for values.
+        c. TreeMaps aren't "tread-safe" and "synchronized".
+
+* HashMap Mechanism;
+    1. Java creates 16 bucket when we create an HashMap and gives 0 to 15 index number to the buckets.
+    2. When we use put() method, Java;
+        a. creates hash code for key
+        b. divides into 16.
+        c. puts this entry into bucket that is equal to the remainder number
+        d. can put more than one entry into bucket, because Java uses LinkedList in buckets.
