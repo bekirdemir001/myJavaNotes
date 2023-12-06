@@ -1,0 +1,17 @@
+
+        OBJECT CREATION
+* There may be variables and methods in a Class. If we want to use these variables and methods, we should create an Object.
+
+* We can reach variables and methods in a Class thanks to the created Object in another Class.
+
+* How to create an Object?
+        Class Name    Object Name     Assignment Operator     "new" keyword       Constructor
+           Car          myCar                =                     new               Car();
+
+* Scanner is a Class that we get data from user and we use these data in our codes.
+
+* We should follow 4 steps when using Scanner Class.
+    1. Create Scanner Object
+    2. Give message to the user
+    3. Put the data comes from the user into memory using appropriate method
+    4. Use the data in memory in our codes

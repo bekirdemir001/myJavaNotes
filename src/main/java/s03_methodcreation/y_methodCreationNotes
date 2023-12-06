@@ -11,3 +11,8 @@
     3. They are called in the Main Method.
     4. We type method name and "()" in the Main Method.
     5. We type argument or arguments into "()".
+
+* We must type return keyword and the data which method produces at the bottom of Method Body.
+
+* If a methods doesn't create any data, we should use "void" as Return Type. Also if a method has a "void" Return Type,
+there is no need to type return keyword and the data which method produces at the bottom of Method Body.

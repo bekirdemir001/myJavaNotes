@@ -5,11 +5,11 @@
 * A variable is a container which holds the value while the java program is executed.
 
 * Variable Declaration
-    For single variables;
+    For single s01_variables;
         Data Type   VariableName    Statement End
            int          age             ;
            char        initial          ;
-    For multiple variables with the same data type;
+    For multiple s01_variables with the same data type;
         Data Type     VariableName          Statement End
            int      age, weight, length          ;
 
