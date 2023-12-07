@@ -1,0 +1,20 @@
+
+            WRAPPER CLASS
+* Non-Primitive Data Types have value and methods, but Primitive Data Types don't.
+
+* Sometimes we need both value and its methods in Primitive Data Types. For this reason Java created Wrapper Classes.
+
+* Primitive:       char    - boolean - byte - short -   int   - long - float - double
+  Wrapper Class: Character - Boolean - Byte - Short - Integer - Long - Float - Double
+
+* Wrapper Classes are Non-Primitive Data Types. So their names starts with upper case and they occupy more area than
+Primitive Data Types. That's why, we should not prefer to use Wrapper Classes, if it is not necessary.
+
+    Autoboxing-Unboxing
+* If we need methods of Wrapper Class for any Primitive Data Type, we use Autoboxing. For example;
+    int number = 22;
+    Integer wrapperNumber = number;
+
+* If we need just Primitive Data Type for any Wrapper Class, we use Unboxing. For example;
+    Boolean isOld = false;
+    boolean isOldWrapper = isOld;

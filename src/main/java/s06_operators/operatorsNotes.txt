@@ -1,0 +1,49 @@
+
+            OPERATORS
+* Java has four type operators.
+    1. Mathematical Operators;
+        a. Addition (+) --> As in Maths
+        b. Subtraction (-) --> As in Maths
+        c. Multiplication (*) --> As in Maths
+        d. Division (/) --> As in Maths
+        Note: If we use a different data type in mathematical operations, Java give the result in big data type. For example,
+            int / int = int
+            double * int = double
+
+    2. Logical Operators;
+        a. And (&&)
+            true && true = true
+            true && false = false
+            false && true = false
+            false && false = false
+        b. Or (||)
+            true && true = true
+            true && false = true
+            false && true = true
+            false && false = false
+        c. Not (!)
+            !true = false
+            !false = true
+
+    3. Comparison Operators;
+        a. Less than (<) --> As in Maths
+        b. Greater than (>) --> As in Maths
+        c. Less than or equal to (<=) --> As in Maths
+        d. Greater than or equal to (>=) --> As in Maths
+        e. Equal Sign or Comparison Operator (==)
+        f. Not Equal Sign (!=)
+
+    4. Assignment Operator;
+        "=" is an Assignment Operator. It takes the value on the right and puts into the container on the left. For example,
+        int name = "Bekir";
+
+* Note: Differences between "=" and "==";
+    1. "=" is equal operator in Maths, but assignment operator in Java.
+    2. "==" is equal operator in Java
+
+* Note: Comparison Operators always give us boolean result.
+
+* Note: Differences between "&" and "&&";
+    1. Java doesn't control the others if it finds the first statement false when using "&&". So "&&" is fast.
+    2. Java controls all statements whatever their values are when using "&". So "&" is slow.
+    Tip: "&&" is recommended.
