@@ -1,0 +1,13 @@
+
+            TYPE CASTING
+* Type Casting is to convert Numeric Primitive Data Types to each other.
+
+*  Numeric Primitive Data Types --> byte - short - int - long - float - double
+
+* Auto Widening is to convert from small data types to large data types. Java do AutoWidening automatically.
+
+* Explicit Narrowing is to convert from large data types to small data types. This operation is riskly. So Java do not
+Explicit Narrowing automatically. This operation should be done by developer.
+
+* If we use Explicit Narrowing with large number from converted data types boundaries, Java do Modulus operation with
+that number and give the result of Modulus operation.

@@ -1,0 +1,27 @@
+
+            SWAP OPERATIONS
+* Swap is an operation to replace two values. For example;
+    Before Swap Operation;
+        int firstNumber = 8;
+        int secondNumber = 17;
+    After Swap Operation;
+        int firstNumber = 17;
+        int secondNumber = 8;
+
+* Swap Operation is done 2 ways;
+    1. Way; Using temporary variable
+    2. Way; Mathematical operations
+
+
+
+
+
+
+
+
+
+
+
+
+
+

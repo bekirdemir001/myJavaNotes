@@ -1,0 +1,21 @@
+
+            STRING MANIPULATIONS
+* Sometimes we need a specific part of any String or to convert upper case or to get a specific character of a String etc.
+In this situations, we should use methods of String Class.
+
+* Methods of String Class;
+    1. toUpperCase():
+       toLowerCase():
+    2. charAt(int index):
+    3. length():
+    4. substring(int beginIndex):
+       substring(int beginIndex, int endIndex):
+    5. contains(CharSequence s):
+    6. startsWith(String prefix):
+       startsWith(String prefix, int toffset):
+    7.
+
+* We should learn three things when learning any methods;
+    1. What makes that method
+    2. How are different usages of that method
+    3. What returns that method
