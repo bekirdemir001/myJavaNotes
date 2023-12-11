@@ -13,9 +13,55 @@ In this situations, we should use methods of String Class.
     5. contains(CharSequence s):
     6. startsWith(String prefix):
        startsWith(String prefix, int toffset):
-    7.
+    7. endsWith(String suffix):
+    8. replace(char oldChar, char newChar)
+       replace(CharSequence target, CharSequence replacement)
+       replaceAll(String regex, String replacement)
+       replaceFirst(String regex, String replacement)
+    9. trim():
+    10. isEmpty():
+    11. isBlank():
+    12. indexOf(int ch):
+        indexOf(String str):
+        indexOf(int ch, int fromIndex)
+        indexOf(String str, int fromIndex)
+    13. lastIndexOf(int ch):
+        lastIndexOf(String str):
+        lastIndexOf(int ch, int fromIndex)
+        lastIndexOf(String str, int fromIndex)
+    14. equals(object anObject)
+        equalsIgnoreCase(String anotherString)
 
 * We should learn three things when learning any methods;
     1. What makes that method
     2. How are different usages of that method
     3. What returns that method
+
+* Important Regexes:
+    1. All Digits --> [0-9]
+    2. All Lower Cases --> [a-z]
+    3. All Upper Cases --> [A-Z]
+    4. All Lower and Upper Cases --> [a-zA-Z]
+    5. All Characters and Digits --> [a-zA-Z0-9]
+    6. All Punctuation --> \\p{Punct}
+    7. All Vowels --> [aeiouAEIOU]
+       All x, q, w Characters --> [xqw]
+    8. All Characters Different From Lower Cases -->[^a-z]
+    8. All Characters Different From All Letters -->[^a-zA-Z]
+
+* Differences between isEmpty() and isBlank()
+    1. If a String has nothing,
+        isEmpty() gives true
+        isBlank() gives true
+    2. If a String has nothing and Space characters,
+        isEmpty() gives false
+        isBlank() gives true
+
+* Differences between "==" and equals()
+    When comparing two Strings, Java controls the followings in "==";
+        1. Addresses(references)
+        2. Values
+    in equals();
+        1. Just values
+    So, addresses are not important for us and we just take care of values. That's why, we should use equals() method for
+comparing two Strings.
