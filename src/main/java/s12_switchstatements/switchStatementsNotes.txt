@@ -1,0 +1,26 @@
+
+            SWITCH STATEMENTS
+*
+
+
+
+
+
+
+
+
+
+
+
+
+İKİ den fazla durum için kullanılır
+if else in yapyığı işin aynısını yapar
+
+
+
+
+
+
+* Ternary does the same job as if else.
+
+* Ternary's syntax is different from if else. It is shorter, more simple and easier to read code.

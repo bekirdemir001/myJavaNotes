@@ -1,0 +1,13 @@
+
+            TERNARY
+* Ternary does the same job as if else.
+
+* Ternary's syntax is different from if else. It is shorter, more simple and easier to read code.
+
+* Ternary is consisted of two parts;
+    1. Ternary
+        Condition ? Condition true : Condition false;
+    2. Nested Ternary
+        Condition ? (Condition1 ? Condition1 true : Condition1 false;) : (Condition2 ? Condition2 true : Condition2 false;);
+
+* If we use Ternary with different data types, we can use Object Class as a data type.

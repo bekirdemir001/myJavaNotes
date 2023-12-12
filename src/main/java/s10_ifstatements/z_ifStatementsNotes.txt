@@ -3,7 +3,7 @@
 * We use If Statements to run some codes, according to some conditions. For instance;
     if you study hard, you will learn Java.
 
-* If Statements are consisted of 4 parts.
+* If Statements are consisted of four parts.
     1. If Statement
     2. If Else Statement
     3. If Else If Statement
@@ -13,30 +13,12 @@
     Codes of the following conditions are asked with us;
         For 0-4 baby
         For 5-10 child
-        For 11-20 teenager
+        For 11-20 teenagers
         For 21-30 young
         For 31-over adult
     We must start to type our codes negative numbers. That is, ordering is important for If Statements.
 
+* Nested If is Time-Consuming. So, we don't use Nested If as it possible.
 
-
-
-
-
-
-
-* If else lerde sıralama önemlidir.
-
-* 4 bölümden oluşur. Bunlar
-    1. If statement
-    2. If else statement
-    3. If else if
-    4. Nested if statement
-
-
-
-
-
-
-
-
+* It is important to be simple inside "if" parenthesis in If Statements. If a statement inside "if" parenthesis is large,
+we assign it to a boolean variable and then put this variable name into "if" parenthesis.

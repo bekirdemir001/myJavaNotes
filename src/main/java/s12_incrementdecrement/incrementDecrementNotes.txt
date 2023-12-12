@@ -1,0 +1,42 @@
+
+            INCREMENT - DECREMENT
+* Increment is to increase the value of any variable. For example;
+    int a = 5;
+    a = a + 2;
+    or
+    int a = 5;
+    a = a * 2;
+
+* Decrement is to decrease the value of any variable. For example;
+    int a = 5;
+    a = a - 2;
+    or
+    int a = 5;
+    a = a / 2;
+
+* Repetition is not good when typing code. So, Java uses abbreviations when typing code. One of these abbreviations is used
+in increment or decrement. For example, we type "a += 2" instead of "a = a + 2" In this code we don't type "a" two times.
+
+* Increment is done three ways:
+    int a = 5;
+    1. a = a + 2;
+    2. a += 2;
+    3. a++; --> It is used only for one increment
+
+* Decrement is done three ways:
+    int a = 5;
+    1. a = a - 2;
+    2. a -= 2;
+    3. a--; --> It is used only for one decrement
+
+* Increment in Java is performed in two ways.
+    1. Post-Increment (i++): We use i++ in our statement if we want to use the current value, and then we want to increment
+    the value of i by 1.
+    2. Pre-Increment(++i): We use ++i in our statement if we want to increment the value of i by 1 and then use it in
+    our statement.
+
+* Decrement in Java is performed in two ways.
+    1. Post-Decrement (i--): We use i-- in our statement if we want to use the current value, and then we want to increment
+    the value of i by 1.
+    2. Pre-Decrement(--i): We use --i in our statement if we want to increment the value of i by 1 and then use it in
+    our statement.
