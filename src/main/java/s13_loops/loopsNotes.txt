@@ -1,0 +1,30 @@
+
+            LOOPS
+* Loops are used when the same steps are done over and over again.
+
+* Loops are consisted of four parts;
+    1. For-Loop
+    2. While-Loop
+    3. Do-While-Loop
+    4. For-Each-Loop
+
+* Standards for typing code;
+    1. Repetition is not good.
+    2. Codes should be dynamic
+    3. Fix and update should be easy
+  If we don't obey the code standards, we type "hard code".
+
+* There are three things in Loops:
+    1. Starting point
+    2. Ending point
+    3. Increment or decrement
+
+
+
+
+
+
+
+
+
+

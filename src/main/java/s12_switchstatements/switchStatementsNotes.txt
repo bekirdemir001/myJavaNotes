@@ -1,26 +1,20 @@
 
             SWITCH STATEMENTS
-*
+* Switch Statements do the same job as if else.
 
+* The syntax of Switch Statements is different from if else. It is more simple and easier to read code.
 
+* Switch Statements are consisted of four parts:
+    1. switch(Condition) --> Just as if(Condition)
+    2. cases and operation codes --> The value of the expression is compared with the values of each case.
+                                     If there is a match, the associated block of code is executed.
+    3. break keyword --> When Java reaches a break keyword, it breaks out of the switch block.
+    3. default and operation codes --> The default keyword contains some code to run if there is no case match
 
+* When any operation is run with Strings without paying attention to a lower letter or upper letter, we use toLowerCase()
+or toUpperCase() methods.
 
+* In Switch we can use String, int, byte, short and char.
+  We cannot use long, boolean, float, double
 
-
-
-
-
-
-
-
-İKİ den fazla durum için kullanılır
-if else in yapyığı işin aynısını yapar
-
-
-
-
-
-
-* Ternary does the same job as if else.
-
-* Ternary's syntax is different from if else. It is shorter, more simple and easier to read code.
+* There is no need to type "break" keyword if we use the default keyword in Switch Statements.
