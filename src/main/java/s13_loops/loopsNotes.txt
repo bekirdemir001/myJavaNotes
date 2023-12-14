@@ -19,9 +19,11 @@
     2. Ending point
     3. Increment or decrement
 
+* If "break" keyword is used in Loops, it breaks out of the Loops.
 
+* "continue" keyword provides to skip Loop steps for some conditions.
 
-
+* Nested Structures are time-consuming. So, we should avoid using Nested Loops.
 
 
 
