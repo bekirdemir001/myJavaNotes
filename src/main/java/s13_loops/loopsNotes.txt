@@ -8,25 +8,63 @@
     3. Do-While-Loop
     4. For-Each-Loop
 
+* For-Loop vs While-Loop
+    1. There is no difference for Java.
+    2. Both of them run the same speed.
+    3. Both of them do the same work.
+    4. For-Loop has a technique syntax, but While-Loop simple. For this reason, we prefer While-Loop because of syntax.
+
+* While-Loop vs Do-While-Loop
+    1. While-Loop may not work at all.
+       But Do-While-Loop at least once
+    2. Zero Execution is possible in While-Loop.
+       But in Do-While-Loop not
+
+* There are three things in Loops except For-Each-Loop:
+    1. Starting point
+    2. Ending point
+    3. Increment or decrement
+    But in For-Each-Loop:
+    1. Data Type of Array or Collection
+    2. "w" and ":"
+    3. Name of Array or Collection
+    Note: We use For-Each-Loop for Arrays or Collections as possible, otherwise we can use For-Loop or While-Loop.
+
+* "break" and "continue" keywords:
+    1. "break" keyword provides to break out of the Loops.
+    2. "continue" keyword provides to skip Loop steps for some conditions.
+
+* Nested Structures are time-consuming. So, we should avoid using Nested Loops.
+
+* Infinite Loops
+  Sometimes Loops couldn't run. For example,
+    for(int i=1; i<0; i--){
+        System.out.println("Hi!");//zero execution
+    }
+  Sometimes Loops could run forever. For example,
+      1. For (int i=1; i<10; i--){
+            System.out.println("Java is money");// infinite execution
+         }
+      2. If we don't type Ending point and Increment or decrement, Loops run forever. For example,
+         for (int i=1; ; ){
+             System.out.println("Time is money");// infinite execution
+         }
+      3. If we don't type Increment or decrement, Loops run forever. For example,
+         for (int i=1; i<10;  ){
+             System.out.println("Time is money");// infinite execution
+         }
+      4. If we don't type Ending point, Loops run forever. For example,
+         for (int i=1;  ; i--){
+            System.out.println("Time is money");// infinite execution
+         }
+  Note: If we don't type Starting point, Java gives Compile Time Error.
+
+* Loops are broken in two ways.
+    1. When the increment-decrement process is completed and
+    2. When the break keyword is used inside the loop
+
 * Standards for typing code;
     1. Repetition is not good.
     2. Codes should be dynamic
     3. Fix and update should be easy
-  If we don't obey the code standards, we type "hard code".
-
-* There are three things in Loops:
-    1. Starting point
-    2. Ending point
-    3. Increment or decrement
-
-* If "break" keyword is used in Loops, it breaks out of the Loops.
-
-* "continue" keyword provides to skip Loop steps for some conditions.
-
-* Nested Structures are time-consuming. So, we should avoid using Nested Loops.
-
-
-
-
-
-
+  If we don't obey the code standards, we type hard code.

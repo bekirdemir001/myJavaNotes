@@ -1,0 +1,39 @@
+
+            ARRAYS
+* Arrays structure provide to store multiple data.
+
+* How to create Arrays
+    1. Data Type
+    2. Declare have many elements in Array
+
+* The syntax of Arrays:
+    1. String[] names = new String[5];
+    2. Int numbers[] = new int[6];
+
+* Arrays are created two ways:
+    1. String arr[] = new String[5];
+        arr[0] = "Math";
+        arr[1] = "Science";
+        arr[2] = "Music";
+        arr[3] = "English";
+        arr[4] = "Art";
+    2. String arr[] = {"Math", "Science", "Music", "English", "Art"};
+
+* Arrays are primitive structure, not primitive date type. Arrays are non-primitive date type.
+
+* Arrays are fast and occupy a little space in memory because of primitive structure.
+
+* Arrays has constant element number, so there is no deletion. So, if we want to delete elements, we should create new
+Array, and move elements there.
+
+* For-Each-Loop is used in Arrays unless otherwise required. For-Each-Loop always starts from the beginning. When we need
+to come from the end, For-Loop or While-Loop is used.
+
+* sort() method sorts numeric data types from smallest to largest (ascending order)
+  sort() method sorts String data types alphabetically (alphabetical order)
+    ascending order + alphabetical order = Natural Order
+  sort() method sorts Array elements according to Natural Order.
+
+* binarySearch() method is used to check whether an element is in an Array.
+  Before using the binarySearch() method, we have to use the sort() method. If we do not use the sort() method,
+the result we find will not be reliable.
