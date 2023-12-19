@@ -23,7 +23,7 @@
 
 * Arrays are fast and occupy a little space in memory because of primitive structure.
 
-* Arrays has constant element number, so there is no deletion. So, if we want to delete elements, we should create new
+* Arrays have constant element number, so there is no deletion. So, if we want to delete elements, we should create new
 Array, and move elements there.
 
 * For-Each-Loop is used in Arrays unless otherwise required. For-Each-Loop always starts from the beginning. When we need
@@ -37,3 +37,8 @@ to come from the end, For-Loop or While-Loop is used.
 * binarySearch() method is used to check whether an element is in an Array.
   Before using the binarySearch() method, we have to use the sort() method. If we do not use the sort() method,
 the result we find will not be reliable.
+
+* Important methods of Arrays:
+    Arrays.toString(arrayName): To print Array
+    Arrays.sort(arrayName): To sort elements of Array by naturel order.
+    Arrays.binarySearch(arrayName, key): To control if an element exists. It is used with sort() method together.
