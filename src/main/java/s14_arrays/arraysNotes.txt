@@ -21,7 +21,7 @@
 
 * Arrays are primitive structure, not primitive date type. Arrays are non-primitive date type.
 
-* Arrays are fast and occupy a little space in memory because of primitive structure.
+* Arrays are super fast and occupy a little space in memory because of primitive structure.
 
 * Arrays have constant element number, so there is no deletion. So, if we want to delete elements, we should create new
 Array, and move elements there.
@@ -42,3 +42,9 @@ the result we find will not be reliable.
     Arrays.toString(arrayName): To print Array
     Arrays.sort(arrayName): To sort elements of Array by naturel order.
     Arrays.binarySearch(arrayName, key): To control if an element exists. It is used with sort() method together.
+
+*Differences between Arrays and ArrayLists(Lists):
+    1. Arrays don't accept Non-Primitive Data Type. They accept Primitive Data Type or references of Non-Primitive Data Type.
+       Lists accept Non-Primitive Data Type.
+    2. Arrays are fixed according to element number. That is, they aren't flexible.
+       Lists are flexible, according to element number.

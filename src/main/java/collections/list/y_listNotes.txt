@@ -1,6 +1,6 @@
 
-            Lists
-* List is an interface and has two parts. First part is ArrayList, second part is LinkedList.
+            LISTS
+* List is an interface and has two parts. The first part is ArrayList, the second part is LinkedList.
 
 * ArrayLists;
     1. They use "elements" for each value in the list.
@@ -9,15 +9,15 @@
     elements.
   LinkedLists;
     1. They use "nodes" for each value in the list.
-    2. When searching any nodes, LinkedList starts to find that node from head to that node. This last much time, if node
+    2. When searching any nodes, LinkedList starts to find that node from head to that node. This lasts much time if the node
     we searched is close to the last node. So it is NOT easy to search elements.
     3. Each node has a value and pointer. Each pointer indicates the following node. So it is easy to add or delete elements.
 
 Note: Node Structure:
     1. Nodes are consisted of value and pointer.
     2. Each pointer indicates the following node.
-    3. First pointer called "Head" doesn't have value, just pointer. This pointer indicates first node.
-    4. Last pointer called "Tail" indicates null.
+    3. The First pointer called "Head" doesn't have value, just pointer. This pointer indicates first node.
+    4. The Last pointer called "Tail" indicates null.
 
 * Differences between ArrayList and LinkedList;
     1. ArrayList is unsuccessful in deleting and adding elements. That's why, if we do adding and deleting elements many
