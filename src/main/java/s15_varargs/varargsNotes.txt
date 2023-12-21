@@ -1,0 +1,20 @@
+
+            VARARGS
+* Varargs means variable arguments.
+
+* Sometimes we need flexibility for typing parameters when creating methods. For example, we want to create a method that
+adds two numbers, or that adds three numbers, or that adds five numbers, etc. For this purpose, Java created Varargs Structure.
+
+* Varargs is a new structure. It is not an Array or a List. But it uses Array logic in the background. We can say that
+Varargs work like Array, but Varargs is a different structure.
+
+* More than 1 Varargs parameter cannot be used in a method. Because the second one is "Unreachable (Unused) Code."
+
+* Creating Varargs Structure:
+        public void add (int... a){
+            int sum = 0;
+            for (int w : a){
+                sum += w;
+            }
+            System.out.println(sum);
+        }
