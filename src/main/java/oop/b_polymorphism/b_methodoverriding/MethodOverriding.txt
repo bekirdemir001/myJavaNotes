@@ -1,0 +1,16 @@
+
+            METHOD OVERRIDING
+* Polymorphism, one of the OOP principles, consists of two parts. These;
+    1. Method Overloading
+    2. Method Overriding
+
+*
+
+
+
+
+
+
+
+
+

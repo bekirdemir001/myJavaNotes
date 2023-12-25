@@ -1,4 +1,4 @@
-* OOP has 4 basic principles. These are;
+* OOP has four basic principles. These are;
     1. Inheritance
     2. Polymorphism
         a. Method Overloading

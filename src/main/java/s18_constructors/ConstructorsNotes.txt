@@ -1,0 +1,18 @@
+
+            CONSTRUCTORS
+* The code blocks that allow us to produce objects from a class are called Constructors.
+
+* When we create a class, Java automatically gives a Constructor. But this constructor is not visible to the naked eye,
+this constructor is called Default Constructor.
+
+* When we create our own Constructor, Java deletes the Default Constructor.
+
+* You can create as many Constructors as you want in a Class using different parameters.
+
+* Thanks to different Constructors, we can create different objects from a Class.
+
+* Difference between Method and Constructor:
+    1. There is a "return type" in methods, but
+       There is no "return type" in constructors.
+    2. The names of the methods are determined by the developers according to the work they do.
+       The name of Constructors must always be the same as the Class name.

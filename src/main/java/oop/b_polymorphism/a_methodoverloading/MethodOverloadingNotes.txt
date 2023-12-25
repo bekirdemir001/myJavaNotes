@@ -1,0 +1,25 @@
+
+            METHOD OVERLOADING
+* Polymorphism, one of the OOP principles, consists of two parts. These;
+  1. Method Overloading
+  2. Method Overriding
+
+* Method Overloading is creating a method with the same name but different parameters. In other words, we can create Method
+Overloading by changing the Method Signature.
+
+* In Java, two methods with the same name and parameters are completely the same. That's why, the name and parameter are called
+Method Signature.
+
+* Features of Method Overloading:
+    1. The method name is not changed while creating Method OverLoading.
+    2. Parameters are changed while doing Method OverLoading.
+        a. When changing parameters, data types of parameters can be changed.
+        B. When changing parameters, if the data types of the parameters are different, their locations can be changed.
+        c. When changing parameters, the number of parameters can be changed.
+    3. Changing the "return type" has no effect on Method OverLoading.
+       Changing the "access modifier" has no effect on Method OverLoading.
+       Making the method "static" or "non-static" has no effect on Method OverLoading.
+       Changing the "method body" has no effect on Method OverLoading.
+    4. "Private" methods can be overloaded. Because method overloading only occurs within a class. Being "private" creates
+    problems when going to other classes.
+    5. Static methods can be overloaded.

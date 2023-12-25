@@ -1,0 +1,33 @@
+
+            STRING - STRING BUILDER - STRING BUFFER
+* String Class, StringBuilder Class, and StringBuffer can be used to create strings.
+
+* StringBuffer is the first class created by Java to produce Strings. StringBuffer was produced in Java 5.
+
+* Strings we produce using "String Class" are "Immutable".
+  Strings we produce using "StringBuilder Class" are "Mutable".
+  Strings we produce using "StringBuffer Class" are "Mutable".
+
+* If you assign the same String after changing the String, Java creates a new container again, puts the changed value into
+this new container, and directs the arrow pointing to the old container to the new container. Therefore, the old container
+remains unaddressed and "Garbage Collector" deletes the unaddressed containers.
+
+* toString() method converts StringBuilder to String. When we need String Class methods, we switch to String Class using
+the toString() method and use String Class methods we need, such as the split() method.
+
+* When we use StringBuilder, the initial capacity is 16. When the capacity is exceeded, twice the existing capacity is added
+to the existing capacity.
+         16 --> 16*2+2 = 34      34 --> 34*2+2 = 70
+
+* synchronized --> It means doing things in logical order.
+  thread-safe --> It means suitable for multi-thread. That is, being able to do more than one job at the same time.
+
+* Differences between StringBuffer and StringBuilder
+    1. StringBuffer is "synchronized" StringBuilder is not "synchronized".
+    2. StringBuffer is "thread-safe" StringBuilder is not "thread-safe".
+
+* Notes:
+    1. When Immutable String is needed, we use String Class.
+    2. When Mutable String is needed, we use StringBuilder or StringBuffer.
+    3. StringBuffer is preferred when "multi-thread" and "synchronization" are required.
+       StringBuilder is preferred when "multi-thread" and "synchronization" are not required.

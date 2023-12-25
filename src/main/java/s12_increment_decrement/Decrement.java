@@ -1,4 +1,4 @@
-package s12_incrementdecrement;
+package s12_increment_decrement;
 
 public class Decrement {
 

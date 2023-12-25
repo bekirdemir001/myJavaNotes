@@ -1,0 +1,15 @@
+
+            PASS BY VALUE - PASS BY REFERENCE
+* PassByValue;
+    * It means perform an operation using the value.
+    * Here, the original value of the variable is preserved;
+    * A copy is created in heap memory and operations are performed on the copy variable.
+    * Then, this copy variable is assigned to another container and saved to memory.
+    * Java uses PassByValue.
+* PassByReference;
+    * It means perform an operation using reference (address).
+    * Here, the original value of the variable is NOT preserved;
+    * A copy of the variable's reference is created in stack memory and operations are performed by accessing the variable
+     through the copy reference.
+    * In this case, the original value of the variable is changed.
+  * C++ uses PassByReference.

@@ -1,0 +1,22 @@
+
+            STATIC KEYWORDS - STATIC BLOCKS
+* Features of Static Keywords:
+    1. Static Variable or static methods (Class Member) are common elements for all objects.
+    2. All changes in Static Class Members affect all objects.
+    3. Static Class Members are mounted to Class, non-Static Class Members are mounted to objects. For example; When we
+    create 100 objects from a Class, non-Static ones are created 100 times, but static ones are created once, regardless
+    of the number of objects.
+    4. There is no need to create an object to access static class members, but it is necessary to create an object to access
+    non-static class members.
+    5. Another name for static variables is Class Variable. Another name for Non-Static Variables is Instance Variable or
+    Object Variable.
+
+* When a variable is created, if you do not assign a value, it means that you have not "initialized" that variable.
+
+* If static variables are initialized in static blocks, they are made ready before anything else in that class.
+
+* Sometimes variables need to be made ready before running the main method. Static blocks are used for this.
+
+* Features of Static Blocks:
+    1. Static Blocks are used to initialize static variables.
+    2. Static Blocks are executed first of all in the class.

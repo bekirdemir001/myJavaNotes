@@ -1,4 +1,4 @@
-package s05_wrapperclass;
+package s05_wrapperclasses;
 
 public class WrapperClasses {
     public static void main(String[] args) {
